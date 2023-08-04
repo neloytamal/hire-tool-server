@@ -1,0 +1,26 @@
+{
+    "workbench.colorCustomizations": {
+        "commandCenter.border": "#15202b99",
+        "panel.border": "#eaebe7",
+        "sideBar.border": "#eaebe7",
+        "statusBar.background": "#d2d4cb",
+        "statusBar.border": "#d2d4cb",
+        "statusBar.debuggingBackground": "#cdcbd4",
+        "statusBar.debuggingBorder": "#cdcbd4",
+        "statusBar.debuggingForeground": "#15202b",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#babdaf",
+        "statusBarItem.remoteBackground": "#d2d4cb",
+        "statusBarItem.remoteForeground": "#15202b",
+        "tab.activeBorder": "#eaebe7",
+        "titleBar.activeBackground": "#d2d4cb",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.border": "#d2d4cb",
+        "titleBar.inactiveBackground": "#d2d4cb99",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#d2d4cb",
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "rafi_dev"
+    ]
+}
