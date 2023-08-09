@@ -12,13 +12,6 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// 4G5V72OUXE11c5HC
-// // mongodb+srv://sadikhasan13255:4G5V72OUXE11c5HC@cluster0.kz0zbjn.mongodb.net/?retryWrites=true&w=majority
-// const uri = `mongodb+srv://${process.env.USER}:${process.env.PASS}@cluster0.kg2k3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
-// const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
-// const productCollection = client.db("test").collection("products");
-// const uri = `mongodb+srv://sadikhasan13255:4G5V72OUXE11c5HC@cluster0.kz0zbjn.mongodb.net/?retryWrites=true&w=majority`
-
 // const uri = `mongodb+srv://sadikhasan13255:4G5V72OUXE11c5HC@cluster0.kz0zbjn.mongodb.net/?retryWrites=true&w=majority`;
 const uri = `mongodb+srv://neloy:OW1M2haLBhuS0Km7@cluster0.ldswlo8.mongodb.net/?retryWrites=true&w=majority`
 const client = new MongoClient(uri, {serverApi: {version: ServerApiVersion.v1,strict: true,deprecationErrors: true,},});
